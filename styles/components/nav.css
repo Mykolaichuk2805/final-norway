@@ -1,0 +1,29 @@
+.nav {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -10px;
+  }
+
+  .nav-item {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .nav-item:hover {
+    text-decoration: transparent;
+    color: blue;
+  }
+  .nav-item.is-active {
+  }
+}
+
+@media (min-width: 960px) {
+  .nav-item {
+    font-size: 18px;
+  }
+}

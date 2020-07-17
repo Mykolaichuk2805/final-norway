@@ -1,0 +1,226 @@
+/*.swiper-container {
+  width: 100%;
+  height: 460px;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}*/
+
+/*другий свайпер*/
+.swiper-container {
+  width: 100%;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-right: 0;
+}
+
+.swiper-positioner {
+  position: relative;
+}
+
+.swiper-absolut-prev {
+  position: absolute;
+  left: 35%;
+  width: 30px;
+  height: 30px;
+  top: 95%;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+}
+
+.swiper-absolut-prev:hover {
+  background-color: blue;
+}
+
+.swiper-absolut-next {
+  position: absolute;
+  right: 35%;
+  width: 30px;
+  height: 30px;
+  top: 95%;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+}
+
+.swiper-absolut-next:hover {
+  background-color: blue;
+}
+
+@media (min-width: 480px) {
+  .swiper-absolut-prev {
+    left: 40%;
+    width: 36px;
+    height: 36px;
+    top: 90%;
+  }
+}
+
+@media (min-width: 640px) {
+  .swiper-absolut-prev {
+    width: 36px;
+    height: 36px;
+    top: 90%;
+  }
+}
+
+@media (min-width: 960px) {
+  .swiper-absolut-prev {
+    left: 43%;
+    width: 46px;
+    height: 46px;
+    top: 85%;
+  }
+}
+
+@media (min-width: 480px) {
+  .swiper-absolut-next {
+    right: 40%;
+    width: 36px;
+    height: 36px;
+    top: 90%;
+  }
+}
+
+@media (min-width: 640px) {
+  .swiper-absolut-next {
+    width: 36px;
+    height: 36px;
+    top: 90%;
+  }
+}
+
+@media (min-width: 960px) {
+  .swiper-absolut-next {
+    right: 43%;
+    width: 46px;
+    height: 46px;
+    top: 85%;
+  }
+}
+
+.swiper-button-prev:after {
+  font-size: 12px;
+}
+
+.swiper-button-next:after {
+  font-size: 12px;
+}
+
+/*first swiper*/
+
+.swiper-positioner-1 {
+  position: relative;
+}
+
+.swiper-absolut-1-prev {
+  position: absolute;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  top: 49%;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+}
+
+.swiper-absolut-1-prev:hover {
+  background-color: blue;
+}
+
+.swiper-absolut-1-next {
+  position: absolute;
+  right: 0;
+  width: 25px;
+  height: 25px;
+  top: 49%;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+}
+
+.swiper-absolut-1-next:hover {
+  background-color: blue;
+}
+
+@media (min-width: 480px) {
+  .swiper-absolut-1-prev {
+    left: -4px;
+    width: 30px;
+    height: 30px;
+    top: 49%;
+  }
+}
+
+@media (min-width: 640px) {
+  .swiper-absolut-1-prev {
+    width: 36px;
+    height: 36px;
+    top: 49%;
+  }
+}
+
+@media (min-width: 960px) {
+  .swiper-absolut-1-prev {
+    left: -4px;
+    width: 40px;
+    height: 40px;
+    top: 49%;
+  }
+}
+
+@media (min-width: 480px) {
+  .swiper-absolut-1-next {
+    right: -4px;
+    width: 30px;
+    height: 30px;
+    top: 49%;
+  }
+}
+
+@media (min-width: 640px) {
+  .swiper-absolut-1-next {
+    width: 36px;
+    height: 36px;
+    top: 49%;
+  }
+}
+
+@media (min-width: 960px) {
+  .swiper-absolut-1-next {
+    right: -4px;
+    width: 40px;
+    height: 40px;
+    top: 49%;
+  }
+}
+
+.swip-card-pad-1 {
+  padding: 0 25px;
+}

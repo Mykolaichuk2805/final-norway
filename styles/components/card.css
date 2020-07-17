@@ -1,0 +1,141 @@
+.card {
+  border-radius: 34px;
+  overflow: hidden;
+  background-color: white;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
+}
+
+.card-non-overflow {
+  overflow: visible;
+}
+
+.card-big-margin {
+  margin: 20px 0;
+  padding: 0 35px 20px 35px;
+}
+
+@media (min-width: 480px) {
+  .card-big-margin {
+    margin: 30px 0;
+    padding: 0 35px 30px 35px;
+  }
+}
+
+@media (min-width: 640px) {
+  .card-big-margin {
+    margin: 50px 0;
+  }
+}
+
+.card-body {
+  padding: 0 15px;
+  flex-grow: 1;
+}
+
+.card-title {
+}
+
+.card-description {
+}
+
+.card-bottom-price {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+
+@media (min-width: 480px) {
+  .card-bottom-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
+
+.card-text-small {
+  font-size: 13px;
+  color: #888ea0;
+}
+
+.card-text-price {
+  font-size: 30px;
+  margin: 0;
+}
+
+.card-image-long img {
+  height: 229px;
+}
+
+.card-image img {
+  height: 170px;
+}
+
+.card-star-re {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px 0 15px;
+}
+
+@media (min-width: 480px) {
+  .card-star-re {
+    padding: 15px 15px 5px 15px;
+  }
+}
+
+@media (min-width: 640px) {
+  .card-star-re {
+    padding: 20px 15px 5px 15px;
+  }
+}
+
+.card-person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.card-person-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.card-person-height {
+  height: 190px;
+  width: 430px;
+}
+
+.card-big-every {
+  margin: 18px 0;
+}
+
+@media (min-width: 480px) {
+  .card-big-every {
+    margin: 25px 0;
+  }
+}
+
+@media (min-width: 640px) {
+  .card-big-every {
+    margin: 30px 0;
+  }
+}
+
+@media (min-width: 960px) {
+  .card-big-every {
+    margin: 36px 0;
+  }
+}
